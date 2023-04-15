@@ -1,0 +1,7 @@
+Description=Simple Proxy
+
+[Service]
+ExecStart=/usr/local/bin/x2x4-proxy -t api.openai.com
+
+[Install]
+WantedBy=multi-user.target
